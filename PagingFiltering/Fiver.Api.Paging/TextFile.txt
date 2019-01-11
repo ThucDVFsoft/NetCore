@@ -1,0 +1,2 @@
+﻿https://api.akeneo.com/documentation/filter.html#filter-on-product-values
+http://localhost:3182/movies?PageNumber=1&PageSize=10&search=[{"Attribute":"Title","Operator":"in","Values":["russia","love"]},{"Attribute":"releaseyear","Operator":"<","Values":["2000"]}]

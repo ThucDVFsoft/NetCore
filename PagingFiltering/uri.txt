@@ -1,0 +1,7 @@
+Paging: 
+	http://localhost:3182/movies?PageNumber=1&PageSize=10
+Searching:
+	http://localhost:3182/movies?PageNumber=1&PageSize=10&searchStr="Russia"
+	
+Filtering:
+	http://localhost:3182/movies?PageNumber=1&PageSize=10&search=[{"Attribute":"Title","Operator":"in","Values":["russia","love"]},{"Attribute":"releaseyear","Operator":"<","Values":["2000"]}]
